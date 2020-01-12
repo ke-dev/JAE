@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".GetApiActivity">
+
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="150dp"
+        android:text="Hello World!"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/btn_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="点我一下嘛"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="21dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
