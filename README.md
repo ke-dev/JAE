@@ -1,2 +1,2 @@
 # freedom
-这是一个模仿手机端网易云界面的简单app，有登录界面，图片滚动和四个小功能，可二次开发.
+This is a sqlite based application,can log in registration,has four small functions,can be developed again.
