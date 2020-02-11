@@ -1,2 +1,2 @@
 # freedom
-This is a sqlite based application,can log in registration,has four small functions,can be developed again.
+模仿网易云界面,带有四个小功能的安卓程序.
