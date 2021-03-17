@@ -1,7 +1,9 @@
 
-方法一：
+
 
 # 防止Tensorflow运行GPU内存不足造成错误
+
+方法一：
 from tensorflow.compat.v1 import ConfigProto
 from tensorflow.compat.v1 import InteractiveSession
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
